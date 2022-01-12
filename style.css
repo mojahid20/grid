@@ -1,0 +1,187 @@
+
+
+/* foont import */
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins&display=swap');
+
+*{
+   margin: 0;
+   padding: 0;
+}
+a{
+   text-decoration: none;
+   color: #fff;
+}
+
+body{
+   background-color: wheat;
+   font-family: 'Poppins', sans-serif;
+   
+}
+header{
+   width: 100%;
+   background-color: rgb(24, 50, 195);
+}
+nav{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   
+   width: 920px;
+
+   height: 100px;
+   margin: 0 auto;
+}
+.logo  img{
+   width: 40px;
+   height: 40px;
+}
+.main-nav{
+   text-align: right;
+}
+.main-nav a{
+   margin-right: 20px;
+   text-align: right;
+}
+
+ /* top player */
+ .player img{
+    width: 56px;
+    height: 56px;
+ }
+.top-player{
+   display: flex;
+   align-items: center;
+   
+   
+}
+.player-dec h3{
+   font-size: 1.1rem;
+   font-weight: 600;
+   font-family: poppins;
+   text-transform: capitalize;
+}
+.player-dec{
+   margin-left: 10px;
+}
+.plyer-grid{
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   grid-row-gap:25px;
+   
+}
+hr{
+   margin-top: 26px;
+   margin-bottom: 35px;
+   background-color: mediumaquamarine;
+ 
+}
+
+
+
+
+
+
+.container{
+   width: 850px;
+   margin: 30px auto 0 auto;
+   background-color: white;
+}
+.section-heading{
+   margin-bottom: 30px;
+   margin-top: 10px;
+   color: rgb(24, 50, 195);
+}
+
+.blog-img img{
+   width: 200px;
+}
+
+.blog{
+   display: flex;
+   
+}
+.blog-dec{
+   margin-left: 15px;
+}
+.blog-dec a{
+   text-decoration: none;
+   color: crimson;
+   opacity: .8;
+}
+.blog-dec .name{
+   color: #bbb;
+}
+.grid{
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   grid-gap:20px
+}
+.container{
+   padding:   2%;
+}
+
+/* cours */
+
+
+
+.section-bg-color{
+   width: 850px;
+   margin: 0 auto;
+   background-color: white;
+   padding:2%;
+}
+
+.course{
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   grid-gap:20px;
+}
+.cours{
+   box-shadow: 2px 2px 10px gainsboro;
+   border-radius: 10px;
+   padding: 8px;
+  
+}
+.cousr-img img{
+   width: 240px;
+   display: block;
+   margin: auto;
+  
+}
+.cours-dec p{
+   color: crimson;
+   opacity: .8;
+   font-size: 14px;
+   margin-bottom: 10px;
+}
+.cours-dec h3{
+   font-size: 18px;
+  margin: 10px 0 5px 0;
+   
+}
+
+.medie{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-right: 10px;
+}
+.clock{
+   background-color:rgb(248, 226, 230) ;
+   width: 100px;padding: 3px;
+   border-radius: 20px;
+   text-align: center;
+   font-style: normal;
+   color: rgb(251, 107, 107);
+   font-size: 16px;
+}
+.cousr-icon .fa{
+   color: yellowgreen;
+   font-size: 14px;
+}
+.cousr-icon .white{
+   color: rgb(195, 171, 171);
+}
+.cours-dec, .medie{
+   margin-left: 5px;
+}
